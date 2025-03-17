@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme {
+    --color-desplegable: rgb(30, 30, 30);
+    --color-desplegable-hover: rgb(60, 60, 60);
+    --color-textgray: #4D525F;
+    --color-button-hover: #FEEBC8;
+}
+
+root {
+    background-color: blue;
+}
+  
