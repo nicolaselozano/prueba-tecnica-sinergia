@@ -8,7 +8,7 @@ export default function PlanDeAccion() {
     horasCapacitacion: 20,
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: { target: { name: string; value: unknown; }; }) => {
     setPlan({
       ...plan,
       [e.target.name]: e.target.value,
